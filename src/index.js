@@ -44,11 +44,17 @@ function BookList() {
 
 const Book = (props) => {
   const { img, title, author } = props.book;
+  const clickHandler = () => {
+    alert("hello oscarboy");
+  };
   return (
     <article className="book">
       <img src={img} alt="" />
-      <h1>{title}</h1>
+      <h1 onClick={() => console.log(title)}>{title}</h1>
       <p>{author}</p>
+      <button type="button" onClick={clickHandler}>
+        Click Me
+      </button>
     </article>
   );
 };
