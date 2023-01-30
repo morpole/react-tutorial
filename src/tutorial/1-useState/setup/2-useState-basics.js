@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 
 const UseStateBasics = () => {
-  const [text, setText] = useState("random title");
+  const [text, setText] = useState("push the button");
 
   const handleClick = () => {
-    if (text === "random title") {
-      setText("Hello Wee Poley");
+    if (text === "push the button") {
+      setText("push it again");
     } else {
-      setText("random title");
+      setText("push the button");
     }
   };
 
