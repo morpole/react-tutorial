@@ -6,9 +6,11 @@ const UseStateObject = () => {
     age: 39,
     message: "hi there shams",
   });
+
   const changeMessage = () => {
     setPerson({ ...person, message: "You doing well?", age: 40 });
   };
+
   return (
     <>
       <h3>{person.name}</h3>
