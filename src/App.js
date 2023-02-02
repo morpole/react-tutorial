@@ -1,5 +1,5 @@
 import React from "react";
-import Setup from "./tutorial/1-useState/setup/5-useState-counter.js";
+import Setup from "./tutorial/1-useState/setup/3-useState-array.js";
 
 function App() {
   return (
